@@ -10,12 +10,12 @@ class FizzBuzzTests: XCTestCase {
         XCTAssertEqual(one, "1")
     }
 
-    func testCanSayFizz() {
+    func testCanSayFizzFor3() {
         let fizz = fizzbuzz.say(number: 3)
         XCTAssertEqual(fizz, "Fizz")
     }
 
-    func testCanSayFizzForSix() {
+    func testCanSayFizzFor6() {
         let fizz = fizzbuzz.say(number: 6)
         XCTAssertEqual(fizz, "Fizz")
     }
