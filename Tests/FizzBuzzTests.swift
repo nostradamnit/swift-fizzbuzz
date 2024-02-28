@@ -7,4 +7,10 @@ class FizzBuzzTests: XCTestCase {
         let one = fizzbuzz.say(number:1)
         XCTAssertEqual(one, "1")
     }
+
+    func testCanSayFizz() {
+        let fizzbuzz = FizzBuzz()
+        let fizz = fizzbuzz.say(number: 3)
+        XCTAssertEqual(fizz, "Fizz")
+    }
 }
