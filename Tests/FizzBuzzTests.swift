@@ -25,6 +25,11 @@ class FizzBuzzTests: XCTestCase {
         XCTAssertEqual(buzz, "Buzz")
     }
 
+    func testCanSayFizzBuzzFor15() {
+        let fizzbuzz = engine.say(number: 15)
+        XCTAssertEqual(fizzbuzz, "FizzBuzz")
+    }
+
     override func setUpWithError() throws {
         engine = FizzBuzzEngine()
     }
