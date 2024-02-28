@@ -3,16 +3,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "FizzBuzz",
+    name: "FizzBuzzEngine",
     dependencies: [],
     targets: [
         .executableTarget(
-            name: "FizzBuzz",
+            name: "FizzBuzzEngine",
             dependencies: [],
             path: "Sources"),
         .testTarget(
             name: "FizzBuzzTests",
-            dependencies: ["FizzBuzz"],
+            dependencies: ["FizzBuzzEngine"],
             path: "Tests"
         )
     ]

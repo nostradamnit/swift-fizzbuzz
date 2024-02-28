@@ -1,4 +1,4 @@
-class FizzBuzz{
+class FizzBuzzEngine{
     func say(number: Int) -> String {
         if (number % 3 == 0) {
             return "Fizz"
