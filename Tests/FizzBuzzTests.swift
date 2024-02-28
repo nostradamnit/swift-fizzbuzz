@@ -2,7 +2,9 @@
 import XCTest
 
 class FizzBuzzTests: XCTestCase {
-    func testFails() {
-        XCTAssertEqual(true, false)
+    func testCanSayOne() {
+        let fizzbuzz = FizzBuzz()
+        let one = fizzbuzz.Say(i:1)
+        XCTAssertEqual(one, "1")
     }
 }
