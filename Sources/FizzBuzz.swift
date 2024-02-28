@@ -1,5 +1,5 @@
 class FizzBuzz{
-    func Say(i: Int) -> String {
-        return String(i)
+    func say(number: Int) -> String {
+        return String(number)
     }
 }
