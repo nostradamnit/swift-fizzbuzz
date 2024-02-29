@@ -1,6 +1,6 @@
 class FizzBuzzEngine{
     func say(number: Int) -> String {
-        if (number % 3 == 0 && number % 5 == 0) {
+        if (isFizz(number) && isBuzz(number)) {
             return "FizzBuzz"
         }
         if (isFizz(number)) {
