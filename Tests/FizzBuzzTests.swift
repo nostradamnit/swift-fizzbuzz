@@ -30,6 +30,11 @@ class FizzBuzzTests: XCTestCase {
         XCTAssertEqual(fizzbuzz, "FizzBuzz")
     }
 
+    func testIsMultipleOf3IsTrueFor9() {
+        let correct = engine.isMultpleOf(divisor: 3, number: 9)
+        XCTAssertTrue(correct)
+    }
+
     override func setUpWithError() throws {
         engine = FizzBuzzEngine()
     }
